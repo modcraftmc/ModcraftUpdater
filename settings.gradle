@@ -1,0 +1,5 @@
+rootProject.name = 'ModcraftUpdater'
+include 'UpdaterClient'
+include 'common'
+include 'UpdaterServer'
+

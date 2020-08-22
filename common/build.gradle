@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.modcraftmc.fr'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+}

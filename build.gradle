@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.modcraftmc.fr'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile project(":UpdaterServer")
+
+}
